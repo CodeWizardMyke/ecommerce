@@ -1,7 +1,16 @@
- 
+import { Outlet } from "react-router-dom";
+
 function App() {
   return (
-    <h1>start</h1>
+    <>
+      <div className="header">
+        <h1>header</h1>
+      </div>
+        <Outlet/>      
+      <div className="footer">
+        <h1>footer</h1>
+      </div>
+    </>
   );
 }
 
