@@ -4,7 +4,7 @@ function App() {
   return (
     <>
       <div className="header">
-        <h1>header</h1>
+        <h1 >header</h1>
       </div>
         <Outlet/>      
       <div className="footer">
