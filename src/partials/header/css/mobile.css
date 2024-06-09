@@ -1,0 +1,41 @@
+.mobile_bar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffff;
+    padding: 5px 10px;
+}
+.icon_container{
+    width: 40px;
+    padding: 5px;
+    position: relative;
+}
+.icon_container img{
+    width: 100%;
+}
+.logo_container{
+    height: 40px;
+    padding: 5px;
+    display: flex;
+}
+.logo_container img{
+    height: 100%;
+}
+.logo_container span{
+    font-size: 16pt;
+}
+
+.shopp_cart{
+    visibility: hidden;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -3px;
+    right: -5px;
+    font-size: 8pt;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f88c68e5;
+}

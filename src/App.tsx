@@ -1,15 +1,17 @@
 import { Outlet } from "react-router-dom";
 
+import HeaderMain from "./partials/header/HeaderMain";
+import Footer from "./partials/footer/Footer";
+
+//css import 
+import './public/css/index.css'
+
 function App() {
   return (
     <>
-      <div className="header">
-        <h1 >header</h1>
-      </div>
-        <Outlet/>      
-      <div className="footer">
-        <h1>footer</h1>
-      </div>
+      <HeaderMain/>
+      <Outlet/>
+      <Footer/>
     </>
   );
 }

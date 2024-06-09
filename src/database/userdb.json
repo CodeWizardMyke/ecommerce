@@ -1,7 +1,9 @@
 {
     "user_id":20032,
-    "email":"usuarioTeste@gmail.com",
-    "name":"usuário de testes unitários",
+    "email":"emilyvanessacampos@fertility.com.br",
+    "name":"Emily Vanessa Stefany Campos",
     "password":"usuario123",
-    "user_image":"undefined"
+    "image":"./default.png",
+    "cpf":"423.153.583-37",
+    "sexo":"F"
 } 

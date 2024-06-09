@@ -1,0 +1,90 @@
+.menuUserOn{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    padding: 5px 0 ;
+    width: 100%;
+}
+
+.userDetails{
+    margin-bottom: 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    position: relative;
+}
+.btn_exit_content{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.userImage{
+     height: 60px;
+     width: 60px;
+     border-radius: 50%;
+}
+.userImage img {
+    height: 100%;
+    width: 100%;
+}
+.userAcess ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.userAcess ul li{
+    margin: 0 5px;
+}
+.userAcess .btn-ligth{
+    background-color: #F88B68;
+}
+
+.menuUserOff{
+    margin-top: 20px;
+    padding-left: 20px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.menuUserOff div{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: end;
+    margin: 5px 0 ;
+    padding-right: 20px;
+}
+.menuUserOff .btn-ligth{
+    background-color: #F88B68;
+    margin-left: 20px;
+    min-width: 120px;
+}
+
+.mobalMenuNav{
+    padding: 20px;
+    text-align: center;
+}
+.mobalMenuNav h6{
+    font-size: 16pt;
+    text-transform: uppercase;
+}
+.mobalMenuNav ul{
+    margin-top:50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.mobalMenuNav .btn-ligth{
+    min-width: 160px;
+    margin: 5px;
+    background-color: #F88B68;
+}
