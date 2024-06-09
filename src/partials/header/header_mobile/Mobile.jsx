@@ -32,6 +32,9 @@ function Mobile() {
           <div className='shopp_cart'></div>
         </div>
       </div>
+      <div className="search">
+        <input type="search" name="search" placeholder='Pesquise um produto'/>
+      </div>
       <div className='showMenu'>
         { stateMenu && ( <MobileMenu user={ response } /> )}
       </div>

@@ -40,7 +40,6 @@ function MobileMenu( {user} ) {
             </div>
         </div>
     )}
-
     <div className='mobalMenuNav'>
         <h6>Categorias</h6>
         <nav>

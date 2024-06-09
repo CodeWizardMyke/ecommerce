@@ -39,3 +39,23 @@
     justify-content: center;
     background-color: #f88c68e5;
 }
+
+.search{
+    width: 100%;
+    display: flex;
+    padding: 10px 0 ;
+    align-content: center;
+    justify-content: center;
+}
+.search input {
+    width: 70%;
+    max-width: 500px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    border: none;
+    background-image: url('../icons/search.png');
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position-y: 8px;
+    background-position-x: 98%;
+}
