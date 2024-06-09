@@ -1,0 +1,28 @@
+[
+    {
+        "id":1,
+        "title":"propaganda 1",
+        "image": "ad_1.png"
+    },
+    {
+        "id":2,
+        "title":"propaganda 2",
+        "image": "ad_2.png"
+    },
+    {
+        "id":3,
+        "title":"propaganda 3",
+        "image": "ad_3.png"
+    },
+    {
+        "id":4,
+        "title":"propaganda 4",
+        "image": "ad_4.png"
+    },
+    {
+        "id":5,
+        "title":"propaganda 5",
+        "image": "ad_5.png"
+    }
+
+]

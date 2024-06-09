@@ -48,6 +48,7 @@
     justify-content: center;
 }
 .search input {
+    background-color: #ffff;
     width: 70%;
     max-width: 500px;
     padding: 5px 15px;

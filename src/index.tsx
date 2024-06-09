@@ -11,6 +11,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.js'
 
 //entrypoints application
 import App from './App';
+import Home from './pages/home/HomePage';
 
 //create routes for application
 const router = createBrowserRouter([
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
     element: <App/>,
     children:[
         //set outers pages and path
+        {
+          path: '/',
+          element: <Home/>
+        }
     ]
   }
 ])
