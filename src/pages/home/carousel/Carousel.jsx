@@ -43,7 +43,7 @@ export default function Carousel({ images }) {
             className={index === current ? 'carousel-item carousel-item-active' : 'carousel-item'}
             key={index}
           >
-            <img src={`/images/${item.image}`} alt={item.title} />
+            <img src={`/images/advetising/${item.image}`} alt={item.title} />
           </div>
         ))}
         <div className="carousel-arrow-left" onClick={sliderLeft}>

@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "title": "Shorts Feminino Fitness Academia",
+    "images": ["1.png", "2.png", "3.png", "4.png"],
+    "score": {
+      "n_rating": 250,
+      "star_average": 4.0
+    },
+    "price": 17.52,
+    "color": ["preto", "vermelho"],
+    "size": ["Único"],
+    "stock": 67
+  },
+  {
+    "id": 2,
+    "title": "Shorts de Ginástica Feminino Estampado",
+    "images": ["1.png", "2.png", "3.png", "4.png"],
+    "score": {
+      "n_rating": 200,
+      "star_average": 4.2
+    },
+    "price": 25.90,
+    "color": ["azul", "rosa"],
+    "size": ["P", "M", "G"],
+    "stock": 45
+  },
+  {
+    "id": 3,
+    "title": "Calça Legging Suplex Star Preto",
+    "images": ["1.png", "2.png", "3.png"],
+    "score": {
+      "n_rating": 180,
+      "star_average": 4.5
+    },
+    "price": 29.99,
+    "color": ["preto"],
+    "size": ["M", "G", "GG"],
+    "stock": 30
+  },
+  {
+    "id": 4,
+    "title": "Top Feminino Insanity Kristy",
+    "images": ["1.png", "2.png", "1.png", "2.png"],
+    "score": {
+      "n_rating": 150,
+      "star_average": 4.3
+    },
+    "price": 19.99,
+    "color": ["azul", "preto"],
+    "size": ["M", "G", "GG"],
+    "stock": 55
+  },
+  {
+    "id": 5,
+    "title": "Calça Legging Suplex Insanity Essence",
+    "images": ["1.png", "2.png", "3.png", "4.png"],
+    "score": {
+      "n_rating": 120,
+      "star_average": 4.4
+    },
+    "price": 22.50,
+    "color": ["cinza", "verde"],
+    "size": ["P", "M", "G"],
+    "stock": 20
+  }
+]
