@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+    max-height: 400px;
     position: relative;
     overflow: hidden; /* Para evitar que as imagens ultrapassem os limites do carrossel */
 }

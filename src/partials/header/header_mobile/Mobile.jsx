@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react'
 
 import response from '../../../database/userdb.json'
+import products from '../../../database/products.json'
+
 
 import menuIcon from '../icons/menu.png'
 import logoIcon from '../icons/logo.png'
@@ -8,13 +10,21 @@ import shopping from '../icons/shopping.png'
 
 import '../css/mobile.css'
 import MobileMenu from './MobileMenu'
+import Cart from '../cart/Cart'
 
 function Mobile() {
 
-  const [ stateMenu, setStateMenu] = useState(false)
+  const [ showMenu, setShowMenu] = useState(false)
+  const [ showCart, setShowCArt] = useState(false)
 
   const toggleMenu = () => {
-    setStateMenu(!stateMenu)
+    setShowCArt(false)
+    setShowMenu(!showMenu)
+  }
+
+  const toggleCart = () => {
+    setShowMenu(false)
+    setShowCArt(!showCart)
   }
 
   return (
@@ -28,17 +38,18 @@ function Mobile() {
           <span>Modas.</span>
         </div>
         <div className="icon_container btn">
-          <img src={shopping} alt="Shopping cart icon" />
-          <div className='shopp_cart'></div>
+          <img src={shopping} alt="Shopping cart icon" onClick={ toggleCart } />
         </div>
       </div>
       <div className="search">
         <input type="search" name="search" placeholder='Pesquise um produto'/>
       </div>
       <div className='showMenu'>
-        { stateMenu && ( <MobileMenu user={ response } /> )}
+        { showMenu && ( <MobileMenu user={ response } /> )}
       </div>
-      <div className="showCart"></div>
+      <div className="showCart">
+        { showCart && ( <Cart products={ products } /> ) }
+      </div>
     </>
   )
 }
