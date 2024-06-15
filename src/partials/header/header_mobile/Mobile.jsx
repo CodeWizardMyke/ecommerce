@@ -1,8 +1,6 @@
-import { useEffect, useState } from 'react'
+import {useState } from 'react'
 
 import response from '../../../database/userdb.json'
-import products from '../../../database/products.json'
-
 
 import menuIcon from '../icons/menu.png'
 import logoIcon from '../icons/logo.png'
@@ -48,7 +46,7 @@ function Mobile() {
         { showMenu && ( <MobileMenu user={ response } /> )}
       </div>
       <div className="showCart">
-        { showCart && ( <Cart products={ products } /> ) }
+        { showCart && ( <Cart/> ) }
       </div>
     </>
   )
