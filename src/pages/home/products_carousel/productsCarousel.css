@@ -51,6 +51,5 @@
     font-weight: 100;
     margin-left: 5px;
 }
-.prod-item button{
-    width: 100%;
-}
+
+.prod-content button{margin: 2px 0;}
