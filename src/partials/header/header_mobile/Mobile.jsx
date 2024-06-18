@@ -14,6 +14,7 @@ function Mobile() {
 
   const [ showMenu, setShowMenu] = useState(false)
   const [ showCart, setShowCArt] = useState(false)
+  const [ searchBar, setSearchBar] = useState('')
 
   const toggleMenu = () => {
     setShowCArt(false)
@@ -23,6 +24,10 @@ function Mobile() {
   const toggleCart = () => {
     setShowMenu(false)
     setShowCArt(!showCart)
+  }
+
+  function searchBarInit(target){
+    setSearchBar(target.value)
   }
 
   return (
@@ -40,7 +45,7 @@ function Mobile() {
         </div>
       </div>
       <div className="search">
-        <input type="search" name="search" placeholder='Pesquise um produto'/>
+        <input type="search" name="search" placeholder='Pesquise um produto' value={searchBar}  onChange={ ({target}) => { searchBarInit(target) } } />
       </div>
       <div className='showMenu'>
         { showMenu && ( <MobileMenu user={ response } /> )}
